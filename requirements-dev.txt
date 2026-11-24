@@ -1,0 +1,2 @@
+# Optional: browser QA uses the Edge already installed on Windows.
+playwright==1.65.2
