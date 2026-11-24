@@ -21,7 +21,7 @@
 python -m unittest discover -s tests -v
 
 # 可选浏览器 QA（复用本机 Edge，不下载浏览器）
-assets\.venv\Scripts\python.exe -m pip install --no-cache-dir -r requirements-dev.txt
+assets\.venv\Scripts\python.exe -m pip install --no-cache-dir -r requirements/requirements-dev.txt
 assets\.venv\Scripts\python.exe tests\browser_smoke.py
 ```
 

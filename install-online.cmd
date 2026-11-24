@@ -6,7 +6,7 @@ if not exist "%NOVEL_ENV%\Scripts\python.exe" (
     python -m venv "%NOVEL_ENV%"
     if errorlevel 1 goto failed
 )
-"%NOVEL_ENV%\Scripts\python.exe" -m pip install --no-cache-dir -r requirements-online.txt
+"%NOVEL_ENV%\Scripts\python.exe" -m pip install --no-cache-dir -r requirements\requirements-online.txt
 if errorlevel 1 goto failed
 echo Online voices installed. Restart run.cmd to use them.
 pause
